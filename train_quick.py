@@ -6,8 +6,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
 import cv2
 
-TRAIN_DIR = 'images/images/train'
-TEST_DIR = 'images/images/test'
+TRAIN_DIR = 'images/train'
+TEST_DIR = 'images/test'
 
 def extract_features(images):
     features = []
